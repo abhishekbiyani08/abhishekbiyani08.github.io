@@ -107,11 +107,13 @@ p {
     width: 200px;
     font-size: 30px;
     border-radius: 20px;
+    background-image: linear-gradient(360deg, blueviolet, white);
 }
 
 .submit_button:hover {
     color: rgb(255, 255, 255);
-    background-color: rgb(70, 117, 0);
+    background-image: linear-gradient(360deg, green, rgb(1, 213, 1));
+    text-shadow: 3px;
 }
 
 .text {
